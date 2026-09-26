@@ -11,7 +11,8 @@ function App() {
       <div className="descripcion">
         <p>
           Me gusta la tecnología y la resolución de problemas. 
-          Tengo conocimientos en lenguajes de programacion como java, html, css, javascript, desarrollo web con PHP(el cual realice un curso en el SENA), 
+          Tengo conocimientos en lenguajes de programacion como java, html, css, javascript,
+           desarrollo web con PHP(el cual realice un curso complementario en el SENA), 
           así como conocimientos en la Teoría General de Sistemas y el diseño de algoritmos.
           Actualmente me encuentro ampliando mis habilidades con react en la UFPSO.
         </p>
