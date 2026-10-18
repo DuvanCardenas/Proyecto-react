@@ -1,11 +1,16 @@
-import { useState } from 'react'
-
-
-
-import Playground from "./playground/Playground";
+import HolaMundo from "./compoente/HolaMundo";
+import Saludo from "./compoente/Saludo";
+import Despedida from "./compoente/Despedida";
+import "./compoente/style.css";
 
 function App() {
-  return <Playground />;
+  return (
+    <div>
+      <HolaMundo />
+      <Saludo />
+      <Despedida />
+    </div>
+  )
 }
 
 export default App;

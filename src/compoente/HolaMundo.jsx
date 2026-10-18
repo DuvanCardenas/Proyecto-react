@@ -1,4 +1,5 @@
 
+import "./style.css";
 function HolaMundo() {
     <div id="">
         <h1>hola mundo </h1>
