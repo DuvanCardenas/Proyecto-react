@@ -1,12 +1,12 @@
 import React from 'react';
-
+import miFoto from '../../assets/foto-de-u.jpeg';
 const Perfil = () => {
   return (
-    <section id="perfil" className="container-fluid py-5 bg-light">
-      <div className="row">
+    <section id="perfil" className="container-fluid py-5 p-0">
+      <div className="row g-0">
         <div className="col-12 text-center">
           <img 
-            src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" 
+            src={miFoto} 
             alt="Perfil" 
             className="rounded-circle mb-3 border border-3 border-primary" 
             style={{ width: '150px', height: '150px', objectFit: 'cover' }} 
